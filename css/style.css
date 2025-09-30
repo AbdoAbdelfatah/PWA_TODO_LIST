@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fdf8c8;
+  margin: 0;
+  padding: 20px;
+}
+
+.task-container {
+  background: #0385ff;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  margin: auto;
+}
+
+.task-container h2 {
+  font-family: cursive;
+  text-align: center;
+}
+
+button {
+  padding: 8px 15px;
+  margin-top: 10px;
+  border: none;
+  background: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.task-list {
+  margin-top: 30px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  width: 400px;
+  margin: 30px auto;
+}
+
+.task-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.task-done {
+  text-decoration: line-through;
+  color: red;
+}
